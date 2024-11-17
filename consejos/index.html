@@ -3,9 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cybersecurity Tip</title>
+  <title>Security Advice</title>
+  <script>
+    
+    fetch('https://raw.githubusercontent.com/v3laDev/api/refs/heads/main/consejos/consejos.json')
+      .then(response => response.json())
+      .then(data => {
+        const randomTip = data.tips[Math.floor(Math.random() * data.tips.length)];
+        document.body.innerText = randomTip;  
+      })
+      .catch(error => {
+        document.body.innerText = 'Error loading tip.';  
+      });
+  </script>
 </head>
 <body>
-  <script src="script.js"></script>
+  <p>Loading advice...</p>
 </body>
 </html>
