@@ -1,10 +1,19 @@
 {
     "consejos": [
-        "nunca uses tu IP real, pelotudito",
+        "Nunca uses tu IP real, pelotudito",
         "Usa VPN pq si no terminas como el notsotbot",
-        "Usa 2fa en todas tus cuentas / redes",
-        "no uses servicios de correo electronicos como gmail, recomiendo https://proton.me",
-        "no seas tan down como para descargar programas crackeados"
+        "Usa 2FA en todas tus cuentas / redes",
+        "No uses servicios de correo electrónicos como Gmail, recomiendo https://proton.me",
+        "No seas tan down como para descargar programas crackeados",
+        "Cifra tus contraseñas con un gestor de contraseñas fiable",
+        "No hagas clic en enlaces sospechosos ni abras archivos adjuntos de correos desconocidos",
+        "Mantén tu sistema operativo y software siempre actualizados",
+        "No confíes en redes Wi-Fi públicas, usa un VPN",
+        "Utiliza contraseñas largas y complejas, mezcla letras, números y símbolos",
+        "Configura alertas de inicio de sesión para saber si alguien accede a tus cuentas",
+        "Haz backups frecuentes de tus datos en un lugar seguro",
+        "Usa autenticación multifactor (MFA) siempre que sea posible",
+        "No reveles información sensible en redes sociales o foros públicos",
+        "Monitorea tu red y dispositivos regularmente para detectar comportamientos sospechosos"
     ]
-  }
-  
+}
